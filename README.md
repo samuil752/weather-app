@@ -4,14 +4,15 @@ After downloading open command prompt, navigate to the `weather-app/weather-app`
 
 
 ## Notes when runing the app
-After downloading open command prompt, 
-1. Type the command:    SET PATH=C:\Program Files\Nodejs;%PATH%
-2. Type the command:    npm uninstall -g vite
+After downloading, open command prompt, 
+# TYPE THE FOLLOWING COMMANDS
+1. SET PATH=C:\Program Files\Nodejs;%PATH%
+2. npm uninstall -g vite
 3. Navigate to the `weather-app/weather-app` directory
 - cd downloads
-. cd weather-app-main
-. cd weather-app-main
-. cd weather-app
-4. Use the command `npm install
-5. Finally use `npm run dev` command to run the app in developer mode.
+- cd weather-app-main
+- cd weather-app-main
+- cd weather-app
+4. npm install
+5. npm run dev
 ## App features
