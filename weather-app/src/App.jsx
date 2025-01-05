@@ -14,8 +14,8 @@
 // }
 
 import { useState } from 'react';
-// Creates a constant variable named API that contain the base URL for the Weather API and 
-// can be called by API.base AND API.key
+// Creates a constant variable named API that contains the base URL for the Weather API  
+// The API base and key can be called by API.base AND API.key
 const API = {
   key: "104a0d206cde4dcc9c8b0b21b60cb51e",
   base: "https://api.openweathermap.org/data/2.5/"
