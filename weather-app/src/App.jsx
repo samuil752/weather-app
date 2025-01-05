@@ -23,9 +23,9 @@ const API = {
 
 function App() {
   // Uses react states hook to manage the state of two (variables : query and weather)
-  //  Creates variable named query initialized as empty string but is updated by setQuery
+  //  Creates variable named query initialized as empty string, it is updated by setQuery
   const [query, setQuery] = useState('');
-  // Creates variable named weather initialized as empty object, it stores the weather data fetched by the API,  
+  // Creates variable named weather initialized as empty object, it is updated by setWeather ( it stores the weather data fetched by the API) 
   const [weather, setWeather] = useState({});
   // Defines a constant variable named search which is assigned to function evt("Stands for event")
   const search = evt => {
